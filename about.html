@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body{margin:0;
+background-image:url("bg2.png");
+background-repeat:no-repeat;
+background-position:center;
+background-attachment: fixed;
+background-size:100%;
+}
+
+.header {margin:0;
+    border-style:inset;
+  border: 25px black;
+
+    text-align:center;}
+ul { position: fixed;
+    top:0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+
+li {
+    float: left;
+}
+
+li a{background-color:rgba(250,20,4,0.4);
+    display: block;
+    color: white;
+    text-align: center;
+    font-size:150%;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+div.transbox {
+  margin: 150px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.5;
+  filter: alpha(opacity=80);
+height:300px; 
+}
+.active{
+color:white;
+text-decoration:none;
+background-color:black;
+}
+
+li a:hover:not(.active){
+    border:2px solid red;
+    text-decoration: none;
+    background-color:rgba(260,20,4,0.7);
+    
+font-size:160%;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 style="color:rgba(220,0,0,0.8);text-align:center;">WELCOME TO MY PORTFOLIO </h1>
+</div>
+<ul>
+  <li><a class="acitve" href="home.html">Home</a></li>
+
+<li style="float:right;"><a href="about.html">About</a></li>  
+<li style="float:right;"><a href="skills.html">Skills</a></li>
+  <li style="float:right;"><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<div class="transbox">
+<p style="text-align:center;font-size:40px;">
+I am Rajesh,Second year undergraduate student of the department of E&ECE,IIT Kharagpur.
+</p>
+<p style="text-align:center;font-size:40px;">
+My hometown is Nalgonda, which is near Hyderabad and
+I completed my secondary education from Jawahar Navodaya Vidyalaya.
+</p>
+</div>
+
+</body>
+</html>
