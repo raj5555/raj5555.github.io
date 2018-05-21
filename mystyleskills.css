@@ -44,9 +44,9 @@ div.transbox {
 height:400px; 
 }
 .active{border: 1px;     border-radius:6000%;
-color:rgba(255,202,250,0.4);
+color:white;
 text-decoration:none;
-background-color:white;
+background-color:rgba(255,202,250,0.9);
 }
 
 li a:hover:not(.active){   border: 1px;     border-radius:6000%;     
